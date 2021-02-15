@@ -9,6 +9,6 @@ groceries = {
 }
 
 def get_the_values(groceries)
-  groceries.values.split.join(",")
+  groceries.values.join(",")
   #binding.pry
 end
