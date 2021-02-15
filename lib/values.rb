@@ -10,7 +10,10 @@ groceries = {
 
 def get_the_values(groceries)
   new_array = []
-  new_array << groceries.values
+  groceries.each do |key, value|
+    new_array << value
+  end
+  #new_array << groceries.values
   new_array
   #binding.pry
 end
