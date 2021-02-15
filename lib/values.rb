@@ -10,5 +10,5 @@ groceries = {
 
 def get_the_values(groceries)
   groceries.values.split
-#  binding.pry
+  binding.pry
 end
