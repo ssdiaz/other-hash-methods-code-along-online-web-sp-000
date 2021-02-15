@@ -9,8 +9,6 @@ groceries = {
 }
 
 def get_the_values(groceries)
-  new_array = []
-  new_array << groceries.values
-  new_array.join(",").split
+  groceries.values.join(",").split
   #binding.pry
 end
