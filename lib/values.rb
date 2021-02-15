@@ -10,7 +10,7 @@ groceries = {
 
 def get_the_values(groceries)
   new_array = []
-  new array << groceries.values
+  new_array << groceries.values
   new_array
   #binding.pry
 end
